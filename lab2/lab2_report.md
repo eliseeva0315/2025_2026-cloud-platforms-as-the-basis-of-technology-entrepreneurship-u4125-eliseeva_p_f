@@ -1,4 +1,3 @@
-<img width="1280" height="912" alt="image" src="https://github.com/user-attachments/assets/440481e5-20bb-416a-9a57-121cd94cbed6" />
 University: [ITMO University](https://itmo.ru/ru/)\
 Faculty: [FICT](https://fict.itmo.ru)\
 Course: Cloud platforms as the basis of technology entrepreneurship\
