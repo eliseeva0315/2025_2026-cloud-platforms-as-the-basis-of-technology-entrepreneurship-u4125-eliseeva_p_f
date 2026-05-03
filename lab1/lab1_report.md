@@ -33,9 +33,9 @@ Date of finished:
 
 `Storage Admin`
 
-<img width="1280" height="675" alt="image" src="https://github.com/user-attachments/assets/e5f873ab-0cea-4254-bcbd-943595cbb66b" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/e5f873ab-0cea-4254-bcbd-943595cbb66b" />
 
-<img width="1280" height="601" alt="image" src="https://github.com/user-attachments/assets/4a219ca9-7852-4b99-a9fc-b724992881c4" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/4a219ca9-7852-4b99-a9fc-b724992881c4" />
 
 ---
 
@@ -64,8 +64,14 @@ Date of finished:
 
 ### 5. Смена роли и проверка доступа
 
-Поменяла права доступа для моего service account с Storage Admin на Compute Viewer и попробовала скопировать файлы снова
+Поменяла права доступа для моего service account с Storage Admin на Compute Viewer и попробовала скопировать файлы снова. Вышла ошибка, у service account отсутствуют права на доступ к объектам Cloud Storage.
+
 <img width="1069" height="869" alt="image" src="https://github.com/user-attachments/assets/ec565d23-dee1-460a-831f-b651ce4a231b" />
 
 <img width="1090" height="164" alt="image" src="https://github.com/user-attachments/assets/4c4d97fe-0f1d-4863-bd79-765a580b0e14" />
 
+## Итоговый вывод
+
+После изменения роли service account с Storage Admin на Compute Viewer доступ к объектам Cloud Storage был ограничен. Попытка скачать файл из бакета завершилась ошибкой 403, что подтверждает отсутствие необходимых прав.
+
+Таким образом, IAM-роли напрямую влияют на доступ к ресурсам Google Cloud, и без соответствующих разрешений выполнение операций с Cloud Storage невозможно.
