@@ -33,9 +33,9 @@ Date of finished:
 
 `Storage Admin`
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/e5f873ab-0cea-4254-bcbd-943595cbb66b" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/e5f873ab-0cea-4254-bcbd-943595cbb66b" />
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/4a219ca9-7852-4b99-a9fc-b724992881c4" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/4a219ca9-7852-4b99-a9fc-b724992881c4" />
 
 ---
 
@@ -52,7 +52,7 @@ Date of finished:
 
 Виртуальная машина была успешно запущена.
 
-<img width="1280" height="675" alt="image" src="https://github.com/user-attachments/assets/dfd91bd2-f6fa-490f-8f68-539d6d84597f" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/dfd91bd2-f6fa-490f-8f68-539d6d84597f" />
 
 ---
 
@@ -60,15 +60,15 @@ Date of finished:
 
 Подключение к виртуальной машине было выполнено через SSH. С помощью утилиты gcloud найден бакет lab1-bucket-itmo и скопированы 3 файла в локальную папку на VM. Командой ls -lah проверила наличие файлов на VM.
 
-<img width="1067" height="533" alt="image" src="https://github.com/user-attachments/assets/6fe15f17-980e-43ce-a9ea-29c585ce2ef4" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/6fe15f17-980e-43ce-a9ea-29c585ce2ef4" />
 
 ### 5. Смена роли и проверка доступа
 
 Поменяла права доступа для моего service account с Storage Admin на Compute Viewer и попробовала скопировать файлы снова. Вышла ошибка, у service account отсутствуют права на доступ к объектам Cloud Storage.
 
-<img width="1069" height="869" alt="image" src="https://github.com/user-attachments/assets/ec565d23-dee1-460a-831f-b651ce4a231b" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/ec565d23-dee1-460a-831f-b651ce4a231b" />
 
-<img width="1090" height="164" alt="image" src="https://github.com/user-attachments/assets/4c4d97fe-0f1d-4863-bd79-765a580b0e14" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/4c4d97fe-0f1d-4863-bd79-765a580b0e14" />
 
 ## Итоговый вывод
 
