@@ -26,8 +26,6 @@ us-docker.pkg.dev/cloudrun/container/hello
 - имя: lab2-hello  
 - регион: europe-west1  
 - доступ: публичный (Allow public access)  
-- тип биллинга: request-based  
-- масштабирование: автоматическое  
 
 Сервис был успешно развернут и получил публичный URL.
 
