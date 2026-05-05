@@ -196,7 +196,7 @@ Cloud Armor добавляется для защиты от атак.
 
 ---
 
-# Инфраструткра
+# АРхитектура
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/70e9c3ee-7a29-4596-9027-967362cf6b56" />
 
